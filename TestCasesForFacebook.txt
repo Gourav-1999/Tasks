@@ -1,0 +1,183 @@
+Prerequisite - System Should be connected to Wifi or any network.
+------------ - Launch Any Browser(Chrome,Opera,etc).
+             - Enter the valid URL of Facebook and click enter.
+
+Test Cases
+----------
+
+Test Scenerio 1)- Login facebook without entering any details.
+
+1.1> Leave the email address or phone number field blank.
+1.2> Leave the password field blank.
+1.3> Click on Log In button.
+
+Expected Result - The email address or mobile number you entered isn't connected to an account.Find your account and log in.
+
+Actual Result - Working as Expected.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 2)- Login facebook with valid email address or phone number and invalid password.
+
+2.1> Enter valid email address or phone number.
+2.2> Enter wrong password.
+2.3> Click on Log In button.
+
+Test Input - Email address or phone number(xyz@ymail.com).
+           - Password(asd12345).
+
+Expected Result - Facebook login page not should be displayed.
+
+Actual Result - The password that you've entered is incorrect.Forgotten password?.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 3)- Login facebook with unregister email address or phone number.
+
+3.1> Enter invalid email address or phone number.
+3.2> Enter password.
+3.3> Click on Log In button.
+
+Expected Result - Facebook login page not should be displayed.
+
+Actual Result - The email address or phone number you entered isn't connercted to account.Find your account and login.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 4)- Check Forgotten password option is shown on facebook login page.
+
+4.1> Enter the valid email address or phone number.
+4.2> Enter the wrong password.
+4.3> Click on Log In button.
+4.4> Showing option Forgotten password click on it.
+4.5> Showing a page where question is asked.How do you want to receive the code to reset your password?.
+    - Send code via email or Send code via SMS.
+4.6> After Selecting option click on continue button.
+4.7> Code is sent on your email or phone number its depend on choosing a option.
+4.8> Enter the valid code and Enter a new password.
+
+Test Input - Enter the code which was sended on email address or phone number.
+ 
+Expected Result - Open a facebook page where option is showing for forgetting your password.
+
+Actual Result - Showing option how do you want to receive the code to reset your password?.
+              - Send code via email or Send via SMS.
+              - Enter valid code and create new password.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 5)- Create a new facebook account.
+
+5.1> Click on create a new account button.
+5.2> After that showing a sign up page.
+5.3> In sign up page enter your first name and surname.
+5.4> Enter Mobile number or email address.
+5.5> Enter new password.
+5.6> Select your date of birth.
+5.7> Select your gender.
+5.8> Click on the sign up button.
+5.9> Enter the Security code sent on your email or mobile number for verification.
+
+Test Input - First name - gourav , surname - vig.
+           - Email address or Mobile number(vig@gmail.com)
+           - Password - 1234567890
+           - 2/feb/2022
+           - Male
+           - Security code(123****8)
+
+Expexted Result - Create a new account.
+
+Actual Result - Create a new account.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 6)- Login facebook with valid email address or phone number and passwords.
+
+6.1> Enter valid email address or phone number.
+6.2> Enter valid password.
+6.3> Click on Log In button.
+
+Test Input - URL of facebook-(https://www.facebook.com).
+           - Email address or phone number(xyz@ymail.com).
+           - Password(123abc).
+
+Expected Result - Facebook login page should be displayed.
+
+Actual Result - Upon Entering correct Email address or phone number and password facebook Home page is displayed.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 7)- After login successfully check the functionality of search option.
+
+7.1> Click on the search option showing top left on the screen. 
+7.2> Enter the name for searching peoples.You shown so many people of one name.
+7.3> Select name which you are looking and you have to see the profile of that person.
+
+Test Input - Name Search-Virat
+
+Expected Result - Name is showing.
+
+Actual Result - Working as expected.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 8)- Change Profile Picture
+
+8.1> After the Successfully login facebook account you see the homepage of your facebook account.
+8.2> In the left side of homepage showing a list and select the first option where your name is write,click on it.
+8.3> Now you are at your profile where showing a logo of camera click on it.
+8.4> Now where showing a options view profile picture,update profile picture.
+8.5> Select option update your picture.
+8.6> Now click on upload photo.
+
+Expected Result - Profile picture successfully updated.
+
+Actual Result - Working as expected.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 9)- Change Cover Photo
+
+9.1> After the Successfully login facebook account you see the homepage of your facebook account.
+9.2> In the left side of homepage showing a list and select the first option where your name is write,click on it.
+9.3> Now you are at your profile where showing option edit your photo,click on it.
+9.4> Showing four options - Select Photo
+                          - Upload Photo
+                          - Reposition
+                          - Remove
+9.5> Select option upload photo.
+9.6> Now choose your photo and upload it.
+
+Expected Result - Cover photo is changed.
+
+Actual Result - Working as expected.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 10)- See Friends List
+
+10.1> After the Successfully login facebook account you see the homepage of your facebook account.
+10.2> In the left side of homepage showing a list and select the second option(Friends),click on it,
+10.3> Now showing options - Home
+                          - Friend Requests
+                          - Suggestions
+                          - All friends
+                          - Birthdays
+                          - Custom lists
+10.4> Click on all friends and seen your friend list.
+
+Expected Result - Friend list seen.
+
+Actual Result - Working as expected.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 11)- Create a Story
+
+11.1> After the Successfully login facebook account you see the homepage of your facebook account.
+11.2> Showing option name as create story click on it.
+11.3> Now showing two options - Create a photo story.
+                              - Create a text story.
+11.4> Choose one of any option like select create a text story.
+11.5> Now write something and upload it.
+
+Test Input - Text Write(My name is Joker).
+
+Expected Result - Created a story.
+
+Actual Result - Working as expected.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Scenerio 12)- Account Log Out
+
+12.1> After the Successfully login facebook account you see the homepage of your facebook account.
+12.2> Showing option on the top right Account click on it.
+12.3> Now Showing option Log Out click on it.
+
+Expected Result - Account is Log Out.
+
+Actual Result - Working as expected.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     
+
+
+ 
